@@ -3,7 +3,7 @@ var r, sz, unit;
 var bg = 238;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight - 4);
+  createCanvas(windowWidth, windowHeight - 100);
   strokeWeight(3);
   stroke(66);
   fill(bg);

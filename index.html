@@ -1,32 +1,66 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>euforic</title>
-    <script type="application/javascript" src="./p5.js"></script>
-    <script type="application/javascript" src="./main.js"></script>
-    <style type="text/css">
-      @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:200';
-      html,
-      body {
-        padding: 0;
-        margin: 0;
-        background-color: #eeeeee;
-        font-family: 'Source Code Pro', monospace;
-        font-weight: 200;
-      }
-      header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-    </style>
+
+    <link rel="stylesheet" href="assets/tardis.css">
+    <link rel="icon" href="assets/tardis.png">
   </head>
   <body>
-    <header>
-      <hgroup>
-        <h1>euforic</h1>
-    </hgroup>
-  </header>
+    <div class="stars"></div>
+    <div class="container">
+      <div class="tardis-back-body">
+        <div class="tardis-front-body">
+          <div class="tardis-door">
+            <div class="window-1">
+              <div class="grid"></div>
+            </div>
+            <div class="window-2">
+              <div class="grid"></div>
+            </div>
+            <div class="window-3">
+              <div class="l1">POLICE TELEPHONE</div>
+              <div class="l2">FREE</div>
+              <div class="l3">FOR USE OF</div>
+              <div class="l4">PUBLIC</div>
+              <div class="l5">ADVICE &amp; ASSISTANCE</div>
+              <div class="l6">OBTAINABLE IMMEDIATELY</div>
+              <div class="l7">OFFICER &amp; CARS</div>
+              <div class="l8">RESPOND TO ALL CALLS</div>
+              <div class="l9">CLICK TO OPEN</div>
+            </div>
+            <div class="window-4"></div>
+            <div class="window-5"></div>
+            <div class="window-6"></div>
+            <div class="window-7"></div>
+            <div class="window-8"></div>
+            <div class="centre-door"></div>
+            <div class="door-handle"></div>
+          </div>
+          <div class="sign">
+            <span class="big">Police</span><span class="small">Public Call</span><span class="big">Box</span>
+          </div>
+          <div class="lamp-base">
+            <div class="lamp-middle">
+              <div class="light"></div>
+            </div>
+            <div class="lamp-top"></div>
+          </div>
+        </div>
+        <div class="top-sign"></div>
+        <div class="step"></div>
+        <div class="ears"></div>
+      </div>
+    </div>
+    <audio autoplay>
+      <source src="assets/tardis.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+      
+    </script>
   </body>
 </html>

@@ -1,22 +1,10 @@
 body {
   /*background-color: #160440;*/
 
-  background: -webkit-linear-gradient(
-    90deg,
-    #c04848 10%,
-    #480048 90%
-  ); /* Chrome 10+, Saf5.1+ */
-  background: -moz-linear-gradient(
-    90deg,
-    #c04848 10%,
-    #480048 90%
-  ); /* FF3.6+ */
+  background: -webkit-linear-gradient(90deg, #c04848 10%, #480048 90%); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(90deg, #c04848 10%, #480048 90%); /* FF3.6+ */
   background: -ms-linear-gradient(90deg, #c04848 10%, #480048 90%); /* IE10 */
-  background: -o-linear-gradient(
-    90deg,
-    #c04848 10%,
-    #480048 90%
-  ); /* Opera 11.10+ */
+  background: -o-linear-gradient(90deg, #c04848 10%, #480048 90%); /* Opera 11.10+ */
   background: linear-gradient(90deg, #c04848 10%, #480048 90%);
 }
 
@@ -29,7 +17,7 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  background-image: url('http://www.script-tutorials.com/demos/360/images/stars.png');
+  background-image: url('stars.png');
   /*   background: url("stars.png"); */
   z-index: -1;
   /*   background-size: 1260px; */
@@ -311,11 +299,7 @@ span.small {
   background: -webkit-radial-gradient(circle, red, yellow, green);
   background: -o-radial-gradient(circle, red, yellow, green);
   background: -moz-radial-gradient(circle, red, yellow, green);
-  background: radial-gradient(
-    circle,
-    rgba(240, 249, 171, 0.72),
-    rgba(255, 255, 255, 0) 65%
-  );
+  background: radial-gradient(circle, rgba(240, 249, 171, 0.72), rgba(255, 255, 255, 0) 65%);
 
   z-index: 1;
 }
